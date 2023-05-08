@@ -1,0 +1,35 @@
+前提代码:
+	dim wsh
+	set wsh=createobject("wscript.shell")
+	wsh.sendkeys("....")	rem 必须要双引号，最好用 微软输入法
+
+rem -----------------特殊键代码-----------------
+rem			chr(34) 双引号
+rem			{x 10} 10个x
+rem 退格键		{backspace}或{bs}或{bksp}
+rem break		{break}
+rem caps lock		{capslock}
+rem num lock 		{numlock}
+rem del/delete 		{del}或{delete}
+rem ins/insert		{ins}或{insert}
+rem 回车/换行		{enter}
+rem 方向:下 		{down}
+rem 方向:上 		{up}
+rem 方向:左 		{left}
+rem 方向:右		{right}
+rem 换页:上		{pgup}
+rem 换页:下 		{pgdn}
+rem home		{home}
+rem end 		{end}
+rem esc 		{esc}
+rem help 		{help}
+rem tab 		{tab}
+rem shift 		+
+rem ctrl 		^
+rem alt 		%
+rem + 			{+}
+rem ^			{^}
+rem %			{%}
+rem F1至F12		{F1}至{F12}
+rem win键		^{esc}
+rem -----------------特殊键代码-----------------
